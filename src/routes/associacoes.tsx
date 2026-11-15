@@ -8,9 +8,9 @@ import { pearson } from "@/lib/stats";
 export const Route = createFileRoute("/associacoes")({
   head: () => ({
     meta: [
-      { title: "O que pesa nos acidentes — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Matriz de correlação de Pearson com p-valores e significância a 5%." },
-      { property: "og:title", content: "O que pesa nos acidentes — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — O que pesa nos acidentes" },
       { property: "og:description", content: "Heatmap de correlações entre indicadores viários." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -11,9 +11,9 @@ import { kmeans, mean, mulberry32, ols, silhouette, zscore } from "@/lib/stats";
 export const Route = createFileRoute("/validacao")({
   head: () => ({
     meta: [
-      { title: "Confiabilidade do sistema — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Validação treino/teste da regressão e silhueta do K-means." },
-      { property: "og:title", content: "Confiabilidade do sistema — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — Confiabilidade do sistema" },
       { property: "og:description", content: "R² e MAE fora da amostra e qualidade dos clusters." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

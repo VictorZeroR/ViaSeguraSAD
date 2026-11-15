@@ -15,9 +15,9 @@ import { download, parseCSV, toCSV } from "@/lib/data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Onde agir primeiro — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Priorize municípios e ações de segurança viária dentro do orçamento disponível." },
-      { property: "og:title", content: "Onde agir primeiro — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — Onde agir primeiro" },
       { property: "og:description", content: "Ranking de municípios priorizados com ação recomendada e justificativa." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

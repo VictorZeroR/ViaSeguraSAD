@@ -12,9 +12,9 @@ import { kmeans, zscore } from "@/lib/stats";
 export const Route = createFileRoute("/perfis")({
   head: () => ({
     meta: [
-      { title: "Perfis de municípios — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Agrupamento K-means dos municípios com gráfico do cotovelo e perfis médios." },
-      { property: "og:title", content: "Perfis de municípios — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — Perfis de municípios" },
       { property: "og:description", content: "Clusters de risco viário com K ajustável." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

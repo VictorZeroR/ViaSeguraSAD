@@ -18,7 +18,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     <div className="flex min-h-screen">
       <aside className="sticky top-0 hidden h-screen w-60 shrink-0 flex-col bg-sidebar text-sidebar-foreground md:flex">
         <div className="flex items-center gap-2 border-b border-sidebar-border px-5 py-5">
-          <ShieldCheck className="h-6 w-6 text-sidebar-primary" />
+          <img src="/viasegura-icone.svg" alt="ViaSegura SAD" className="h-7 w-7 shrink-0" />
           <div>
             <div className="font-semibold text-sidebar-accent-foreground">ViaSegura SAD</div>
             <div className="text-xs opacity-70">Apoio à decisão viária</div>
@@ -41,7 +41,8 @@ export function AppShell({ children }: { children: ReactNode }) {
         <div className="p-4 text-xs opacity-60">Base simulada, estrutura RENAEST/RENACH/IBGE</div>
       </aside>
       <div className="flex min-w-0 flex-1 flex-col">
-        <nav className="flex gap-1 overflow-x-auto border-b bg-card p-2 md:hidden">
+        <nav className="flex items-center gap-1 overflow-x-auto border-b bg-card p-2 md:hidden">
+          <img src="/viasegura-icone.svg" alt="ViaSegura SAD" className="mx-1 h-6 w-6 shrink-0" />
           {NAV.map(({ to, label }) => (
             <Link key={to} to={to} activeOptions={{ exact: true }} className="whitespace-nowrap rounded px-3 py-1.5 text-sm" activeProps={{ className: "bg-primary text-primary-foreground" }}>
               {label}

@@ -6,9 +6,9 @@ import { ComoCalculado, PageHeader } from "@/components/AppShell";
 export const Route = createFileRoute("/sobre")({
   head: () => ({
     meta: [
-      { title: "Metodologia — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Fluxo de dados do sistema: dados, análises, modelo de decisão e recomendação." },
-      { property: "og:title", content: "Metodologia — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — Metodologia" },
       { property: "og:description", content: "Como o ViaSegura SAD transforma dados em recomendações." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -26,9 +26,9 @@ import { mean } from "@/lib/stats";
 export const Route = createFileRoute("/modelo")({
   head: () => ({
     meta: [
-      { title: "Simulador de cenários — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Compare investimentos em segurança viária e simule seus efeitos em cada município." },
-      { property: "og:title", content: "Simulador de cenários — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — Simulador de cenários" },
       { property: "og:description", content: "Alavancas de mobilidade, comparação com municípios parecidos e sugestões por custo-benefício." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

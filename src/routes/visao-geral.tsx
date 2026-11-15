@@ -9,9 +9,9 @@ import { histogram, mean, median, sd } from "@/lib/stats";
 export const Route = createFileRoute("/visao-geral")({
   head: () => ({
     meta: [
-      { title: "Panorama do estado — ViaSegura SAD" },
+      { title: "ViaSeguraSAD" },
       { name: "description", content: "Estatísticas descritivas e histogramas dos indicadores viários municipais." },
-      { property: "og:title", content: "Panorama do estado — ViaSegura SAD" },
+      { property: "og:title", content: "ViaSeguraSAD — Panorama do estado" },
       { property: "og:description", content: "Média, mediana, desvio padrão e CV das variáveis." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
